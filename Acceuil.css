@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'Lemon';
+    src: url('font/LEMONMILK-Medium.otf') format("opentype");
+}
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lemon'
+}
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+#Marina{
+    font-size: 20pt;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul{
+    color: white;
+}
+ul li a{
+    color: rgb(255, 247, 247);
+    letter-spacing: 0.1rem;
+}
+.menu li{
+    padding: 23px;;
+    
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 23px;
+    text-align: right;
+}
+input{
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.menu-bas li a{
+    text-decoration: none;
+}
+.logo{
+    height: 30px;
+    object-fit: cover;
+}
+li{
+    align-items: center;
+    vertical-align:text-bottom;
+}
+
+
+@media screen and (max-width:1130px) {
+
+}  
+
+@media screen and (max-width:414px) {
+    
+}
+ 
